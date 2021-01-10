@@ -17,13 +17,14 @@ li {
   padding: 0 15px;
 }
 body {
-   font-family: 'PT Serif', serif;
+   font-family: 'Roboto', sans-serif
    font-weight: 400;
    font-size: 14px;
    line-height: 18px;
-   color:5e5e5e;
+   color:#5e5e5e;
 }
 /*
+font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 */
 
@@ -123,3 +124,106 @@ header {
    background-position: center;
    min-height: 500px;
 }
+.slider__item-content {
+   text-align: center;
+   padding-top: 110px;
+   max-width:665px;
+   margin: 0 auto;
+}
+.slider__title {
+   font-family: 'Playfair Display', serif;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 36px;
+   color:#ffffff;
+   letter-spacing: .5px;
+   text-transform: uppercase;
+   margin-bottom: 25px;
+}
+.slider__subtitle {
+   font-family: 'Roboto', sans-serif
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   color: #faebd7;
+   letter-spacing: 0.5px;
+   margin-bottom: 40px;
+  
+}
+.default-btn {
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.25px;
+   padding: 8px 30px 8px 24px;
+   border-top: 1px solid #ffc222;
+   border-right: 20px solid #ffc222;
+   border-bottom: 1px solid #ffc222;
+   border-left: 1px solid #ffc222;
+   position: relative;
+   margin-bottom: 90px;
+ }
+ .default-btn:after {
+   content: "\f105";
+   font-family: 'icomoon';
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -14px;
+   color:#fff;
+
+ }
+ .slider__inner {
+    position: relative;
+ }
+ .slick-btn {
+    position: absolute;
+    top: 60%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color:transparent;
+    cursor: pointer;
+    outline: none;
+    background-color:#ffc222;
+ }
+ .slick-btn.slick-disabled {
+    cursor: default;
+    background-color:transparent;
+    
+ }
+ 
+ .slick-btn:before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'icomoon';
+    
+   
+ }
+ 
+.slick-next {
+   left: 0;
+
+} 
+.slick-next:before {
+   content: "\f104";
+   position: absolute;
+
+   color:#fff;
+}
+
+.slick-prev {
+   right: 0;
+
+}
+.slick-prev:before {
+   content: "\f105";
+   
+   position: absolute;
+   
+   color:#fff;
+}
+
