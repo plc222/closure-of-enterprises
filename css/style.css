@@ -110,3 +110,16 @@ header {
 .menu li+li {
    padding-left: 10px;
 }
+#modal {
+   display: none;
+}
+
+/*===========SLIDER===================*/
+
+.slider {
+   background-image: url("../img/slider-fon.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 500px;
+}
