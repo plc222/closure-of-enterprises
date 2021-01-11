@@ -154,9 +154,9 @@ header {
    color: #ffffff;
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
-   font-weight: 500;
+   font-weight: 400;
    letter-spacing: 0.25px;
-   padding: 8px 30px 8px 24px;
+   padding: 9px 30px 9px 24px;
    border-top: 1px solid #ffc222;
    border-right: 20px solid #ffc222;
    border-bottom: 1px solid #ffc222;
@@ -408,7 +408,7 @@ header {
    resize: none;
    outline: none;
    padding: 10px;
-   margin-bottom: 42px;
+   margin-bottom: 36px;
    
  }
  .form__box-inner select {
@@ -430,8 +430,6 @@ header {
    color: #282828;
 }
 .form__box-right button {
-  // position: absolute;
-   //right: 0;
-   //top: 268px;
    float: right;
+   cursor: pointer;
 }
