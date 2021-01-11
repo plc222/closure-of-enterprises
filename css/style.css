@@ -19,8 +19,8 @@ li {
 body {
    font-family: 'Roboto', sans-serif
    font-weight: 400;
-   font-size: 14px;
-   line-height: 18px;
+   font-size: 16px;
+   line-height: 24px;
    color:#5e5e5e;
 }
 /*
@@ -162,7 +162,7 @@ header {
    border-bottom: 1px solid #ffc222;
    border-left: 1px solid #ffc222;
    position: relative;
-   margin-bottom: 60px;
+   margin-bottom: 30px;
  }
  .default-btn:after {
    content: "\f105";
@@ -254,14 +254,14 @@ header {
    height: 2px;
    background-color: #ffc222;
    left: 0;
-   top: 11px;
+   top: 26px;
  }
  .services__title,
  .form__title,
  .news__title{
-   font-size: 24px;
+   font-size: 28px;
    font-weight: 500;
-   line-height: 24px;
+   line-height: 36px;
    color: #212020;
    font-family: 'Playfair Display', serif;
    margin-bottom: 10px;
@@ -269,6 +269,10 @@ header {
  .services__text,
  .form__text,
  .news__text{
+   font-family: 'Roboto', sans-serif
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
    letter-spacing: 0.1px;
  }
  .services__btn a,
@@ -294,13 +298,16 @@ header {
  }
  .services__item-title{
    color: #212020;
-   font-size: 18px;
-   line-height: 24px;
+   font-size: 21px;
+   line-height: 28px;
    font-weight: 500;
    font-family: 'Playfair Display', serif;
    padding: 24px 0;
  }
  .services__item-text{
+   font-family: 'Roboto', sans-serif
+   font-weight: 400;
+   font-size: 15px;
    letter-spacing: 0.1px;
    padding: 0px 30px 60px;
  
@@ -331,7 +338,8 @@ header {
    background-position: center;
    min-height: 300px;
    background-repeat: no-repeat;
-   padding: 25px 0px 45px;
+   padding-top: 60px;
+   padding-bottom: 60px;
  }
  .about__inner{
    max-width: 545px;
@@ -353,3 +361,75 @@ header {
  .about__btn.default-btn:after{
    color: #000;
  }
+
+ /*======CONSULTATION=====================*/
+
+ .form {
+    padding-top: 90px;
+    padding-bottom: 90px;
+ }
+ .form__inner {
+    padding-bottom: 40px;
+    background-image: url("../img/form-fon.png");
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+ }
+ .form__box {
+    max-width:850px;
+    padding-top: 45px;
+ }
+ .form__box-inner {
+    display: flex;
+    justify-content: space-between;
+ }
+ .form__box-inner label,
+ .form__box-inner input,
+ .form__box-inner textarea,
+ .form__box-inner select {
+    display: block;
+    width: 100%;
+ }
+ .form__box-inner label {
+   color: #282828;
+   font-size: 14px;
+   line-height: 36px;
+   font-family: 'Roboto', sans-serif;
+ }
+ .form__box-inner input {
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+ }
+ .form__box-inner textarea {
+   height: 192px;
+   border: 1px solid #e6e6e6;
+   resize: none;
+   outline: none;
+   padding: 10px;
+   
+ }
+ .form__box-inner select {
+   height: 40px;
+   border: 1px solid #e6e6e6;
+ }
+.form__box-left {
+   max-width: 260px;
+   width: 100%;
+}
+.form__box-right {
+   max-width: 555px;
+   width: 100%;
+   position: relative;
+ 
+}
+.form__box-inner button {
+   background-color: transparent;
+   color: #282828;
+}
+.form__box-right button {
+   position: absolute;
+   right: 0;
+   top: 268px;
+}
