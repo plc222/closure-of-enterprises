@@ -433,3 +433,9 @@ header {
    float: right;
    cursor: pointer;
 }
+
+/*======ADVANTAGES=======================*/
+.advantages {
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
