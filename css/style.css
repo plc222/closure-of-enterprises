@@ -408,6 +408,7 @@ header {
    resize: none;
    outline: none;
    padding: 10px;
+   margin-bottom: 42px;
    
  }
  .form__box-inner select {
@@ -429,7 +430,8 @@ header {
    color: #282828;
 }
 .form__box-right button {
-   position: absolute;
-   right: 0;
-   top: 268px;
+  // position: absolute;
+   //right: 0;
+   //top: 268px;
+   float: right;
 }
