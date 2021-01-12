@@ -668,3 +668,28 @@ header {
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
+
+/*=======MODAL=============*/
+
+#modal{
+  width: 300px;
+}
+#modal input{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#modal input[type="submit"]{
+  background-color: #ffc222;
+  border: none;
+}
+.header__btn-menu{
+  display: none;
+  font-size: 28px;
+}
