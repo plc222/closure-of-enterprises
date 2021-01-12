@@ -541,8 +541,8 @@ header {
    left: 10px;
  }
  .news__blog-title{
-   font-size: 16px;
-   font-weight: 500;
+   font-size: 21px;
+   font-weight: 600;
    font-family: 'Playfair Display', serif;
    letter-spacing: 0.5px;
    color: #242424;
@@ -553,7 +553,7 @@ header {
    color: #5e5e5e;
  }
  .news__slider-title{
-   font-size: 21px;
+   font-size: 24px;
    line-height: 30px;
    color: #242424;
    font-weight: 600;
@@ -567,20 +567,22 @@ header {
  .news__slider-author{
    letter-spacing: 0.1px;
    color: #212020;
-   font-weight: 500;
-   font-family: 'Roboto', sans-serif;
+   font-weight: 600;
+   font-family: 'Playfair Display', serif;
+   font-size: 18px;
  }
  .news__slider-inner .slick-btn{
    top: auto;
    bottom: -110px;
  }
- .news__slider-inner .slick-next{
-   right: 20px;
-   left: auto;
- }
  .news__slider-inner .slick-prev{
    right: -35px;
    left: auto;
+   
+ }
+ .news__slider-inner .slick-next{
+   left: 390px;
+   
  }
  .news__slider-inner .slick-disabled{
    border-color: #dadada;
