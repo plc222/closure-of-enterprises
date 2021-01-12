@@ -672,7 +672,7 @@ header {
 /*=======MODAL=============*/
 
 #modal{
-  width: 300px;
+  width: 320px;
 }
 #modal input{
   display: block;
@@ -691,5 +691,5 @@ header {
 }
 .header__btn-menu{
   display: none;
-  font-size: 28px;
+  font-size: 26px;
 }
